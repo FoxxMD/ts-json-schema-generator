@@ -49,6 +49,7 @@ By default, the command-line generator will use the `tsconfig.json` file in the 
   --markdown-description         Generate `markdownDescription` in addition to `description`.
   --functions <functions>        How to handle functions. `fail` will throw an error. `comment` will add a comment. `hide` will treat the function like a NeverType or HiddenType.
                                  (choices: "fail", "comment", "hide", default: "comment")
+  --definition-titles            Generates titles from definition names
   --minify                       Minify generated schema (default: false)
   --unstable                     Do not sort properties
   --strict-tuples                Do not allow additional items on tuples
